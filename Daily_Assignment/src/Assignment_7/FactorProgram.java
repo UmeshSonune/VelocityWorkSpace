@@ -1,6 +1,5 @@
 package Assignment_7;
 import java.util.Scanner;
-
 public class FactorProgram {
 	public static void main(String[]args) 
 	{
@@ -14,6 +13,9 @@ public class FactorProgram {
 }
 class Factor
 {
+	Factor(){
+		
+	}
 	public void method(int num)
 	{
 		int i=1;

@@ -30,6 +30,7 @@ public class Student
 	{
 		mobileno=m;
 	}
+	
 	public void getStudentInformation() 
 	{	
 			System.out.println("---------------------------------------");
@@ -39,9 +40,6 @@ public class Student
 			System.out.println("City-->    "+city);
 			System.out.println("Mobile-->  "+mobileno);
 			System.out.println("Country--> "+Country);
-
-		
-		
 	}
 	//--
 }
