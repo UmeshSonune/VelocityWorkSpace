@@ -8,6 +8,16 @@ public class Student
 	private String city;
 	private String mobileno;
 	static String Country="India";
+	static int restricter=0;
+	public Student(){
+		restricter++;
+		if(restricter>2) 
+		{
+			System.out.println("Object cant be created");
+			Student s3 = null;
+		}
+		
+	}
 	
 	public void setRoll(int r)
 	{	
