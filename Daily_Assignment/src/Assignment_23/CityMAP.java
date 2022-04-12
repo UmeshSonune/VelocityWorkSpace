@@ -30,6 +30,9 @@ public class CityMAP {
 		hm.put("Nagpur",(ArrayList<String>)MadhyaPradesh);
 		System.out.println(hm);
 		
+		
+		System.out.println("this is the bullshit");
+		
 	
 	}
 }
